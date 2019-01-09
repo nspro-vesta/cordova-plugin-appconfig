@@ -9,9 +9,9 @@ var argscheck = require('cordova/argscheck'),
     exec = require('cordova/exec'),
     cordova = require('cordova');
 
-//channel.createSticky('onCordovaInfoReady');
+channel.createSticky('onCordovaInfoReady');
 // Tell cordova channel to wait on the CordovaInfoReady event
-//channel.waitForInitialization('onCordovaInfoReady');
+channel.waitForInitialization('onCordovaInfoReady');
 
 /**
  * This class provides methods for getting EMM application configuration and 
